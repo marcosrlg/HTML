@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculadora de Círculo</title>
+    <link rel="stylesheet" type="text/css" href="Calculo_Circulo.css">
+</head>
+<body>
+    <div class="calculator">
+        <h1>Calculadora de Círculo</h1>
+        <label>
+            <input type="radio" id="radio" name="opcion" checked> Radio
+        </label>
+        <label>
+            <input type="radio" id="diametro" name="opcion"> Diámetro
+        </label>
+        <label>
+            <input type="radio" id="circunferencia" name="opcion"> Circunferencia
+        </label>
+        <label>
+            <input type="radio" id="area" name="opcion"> Área
+        </label>
+        <br>
+        <input type="number" id="valorConocido" placeholder="Ingrese el valor conocido">
+        <button onclick="calcular()">Calcular</button>
+        <div id="resultado"></div>
+    </div>
+    <script src="Calculo_Circulo.js"></script>
+</body>
+</html>
